@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="3rd Block"
+            android:id="@+id/pc_canteen"
+            android:layout_weight="0.5"
+            android:textColor="#0217fe"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="4/4"
+            android:id="@+id/pc_date"
+            android:layout_weight="0.3"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="7:05 pm"
+            android:id="@+id/pc_time"
+            android:layout_weight="0.2"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="(Random Order x2, Another Random Order x3, Extras x4)"
+            android:id="@+id/pc_order"
+            android:layout_weight="0.80"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="150"
+            android:id="@+id/pc_bill"
+            android:layout_weight="0.2"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:textColor="#06a426" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="#999"
+        android:layout_height="1dp"/>
+
+</LinearLayout>

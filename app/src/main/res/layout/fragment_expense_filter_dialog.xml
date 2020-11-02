@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="nightcanteen.ashish.com.nightcanteen.ExpenseFilterDialogFragment">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Filter"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:padding="20dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:background="#999"
+        android:layout_height="2dp"/>
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/filter_radio_grp">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Today"
+            android:id="@+id/radioButton"
+            android:textSize="20dp"
+            android:padding="15dp"
+            android:buttonTint="#2cf412" />
+
+        <View
+            android:layout_width="match_parent"
+            android:background="#999"
+            android:layout_height="1dp"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Last 3 days"
+            android:id="@+id/radioButton2"
+            android:textSize="20dp"
+            android:padding="15dp"
+            android:buttonTint="#2cf412" />
+
+        <View
+            android:layout_width="match_parent"
+            android:background="#999"
+            android:layout_height="1dp"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Last 7 days"
+            android:id="@+id/radioButton3"
+            android:textSize="20dp"
+            android:padding="15dp"
+            android:buttonTint="#2cf412" />
+
+        <View
+            android:layout_width="match_parent"
+            android:background="#999"
+            android:layout_height="1dp"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Last 1 month"
+            android:id="@+id/radioButton4"
+            android:textSize="20dp"
+            android:padding="15dp"
+            android:buttonTint="#2cf412" />
+
+        <View
+            android:layout_width="match_parent"
+            android:background="#999"
+            android:layout_height="1dp"/>
+    </RadioGroup>
+
+</LinearLayout>
+
